@@ -1,0 +1,66 @@
+// Z-INDEX
+@zindex-back: 999;
+@zindex-mid: 1010;
+@zindex-top: 1020;
+@zindex-overlay: 10050;
+
+// COLORS
+@red: #d3272d;
+@lightRed: #e8cdcf;
+@white: #fff;
+@offBlack: #322E2F;
+@darkGray: #2C2C2A;
+@gray: #808080;
+@tanGray: #B1ACA0;
+@offWhite: #DADDD6;
+@lightGray: #E6E6E6;
+@lightGrayHover: #D3D3D4;
+@editor: #333;
+@lightBlue: #DDF1F4;
+@blue: #54C3C1;
+@textColor: @blue;
+
+
+// Media queries breakpoints
+// --------------------------------------------------
+
+// Extra small screen / phone
+// Note: Deprecated @screen-xs and @screen-phone as of v3.0.1
+@screen-xs:                  480px;
+@screen-xs-min:              @screen-xs;
+@screen-phone:               @screen-xs-min;
+
+// Small screen / tablet
+// Note: Deprecated @screen-sm and @screen-tablet as of v3.0.1
+@screen-sm:                  768px;
+@screen-sm-min:              @screen-sm;
+@screen-tablet:              @screen-sm-min;
+
+// Medium screen / desktop
+// Note: Deprecated @screen-md and @screen-desktop as of v3.0.1
+@screen-md:                  992px;
+@screen-md-min:              @screen-md;
+@screen-desktop:             @screen-md-min;
+
+// Large screen / wide desktop
+// Note: Deprecated @screen-lg and @screen-lg-desktop as of v3.0.1
+@screen-lg:                  1200px;
+@screen-lg-min:              @screen-lg;
+@screen-lg-desktop:          @screen-lg-min;
+
+// So media queries don't overlap when required, provide a maximum
+@screen-xs-max:              (@screen-sm-min - 1);
+@screen-sm-max:              (@screen-md-min - 1);
+@screen-md-max:              (@screen-lg-min - 1);
+
+//Import Mixins here
+@import "mixins.less";
+
+// Added to overrule twilio.com styles
+
+body { 
+  background: @offBlack;
+  color: @textColor;
+}
+
+@import "responsive.less";
