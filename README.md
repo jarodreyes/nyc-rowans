@@ -21,3 +21,5 @@ $ grunt server
 
 ## Author
 Michael Genesini
+
+## Modified by Jarod Reyes
