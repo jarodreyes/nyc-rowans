@@ -6,8 +6,13 @@
 
 // COLORS
 @red: #d3272d;
-@lightRed: #e8cdcf;
-@white: #fff;
+@lightPink: #c8608d;
+@pink: #da1c5c;
+@magenta: #9e1f63;
+@orange: #e23430;
+@lightOrange: #f15a29;
+@gold: #fbb040;
+
 @offBlack: #322E2F;
 @darkGray: #2C2C2A;
 @gray: #808080;
@@ -55,12 +60,74 @@
 
 //Import Mixins here
 @import "mixins.less";
+@import "fonts.less";
 
 // Added to overrule twilio.com styles
-
 body { 
   background: @offBlack;
   color: @textColor;
+  font-family: "Whitney", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.25;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+a, h2, h3, h4, small {
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+a {
+  color:@blue;
+  text-decoration: none;
+}
+.pink {color:@pink;}
+.pink-light {color:@lightPink;}
+.magenta {color:@magenta;}
+.orange {color:@orange;}
+.orange-light {color:@lightOrange;}
+.gold {color:@gold;}
+
+.description {
+  text-align: center;
+  font-size:1.2em;
+  padding:20px 60px;
+  line-height: 1.6;
+  max-width: @screen-md;
+  p, span {
+    margin:0px;
+    padding-top: 0px;
+  }
+}
+
+.h2 {   font-size:2.75em;  }
+.h3 {   font-size:2em;    }
+.h4 {   font-size:1.25em;  }
+.small {font-size:0.5em;  }
+
+.breadcrumbs {
+  text-transform: uppercase;
+  text-align: center;
+  a {
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+  }
+  img.mini {
+    margin:80px;
+    width:30px;
+  }
+}
+
+.hero {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 40px 0px;
+}
+.hero-img {
+  width:700px;
 }
 
 @import "responsive.less";
