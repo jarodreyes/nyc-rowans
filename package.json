@@ -14,5 +14,8 @@
     "grunt-open": "^0.2.3",
     "grunt-ruby-haml": "0.0.1",
     "underscore": "^1.7.0"
+  },
+  "dependencies": {
+    "express": "^4.12.0"
   }
 }

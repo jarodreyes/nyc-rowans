@@ -106,3 +106,4 @@ module.exports = (grunt) ->
 
   grunt.registerTask 'default', ['rubyHaml', 'less', 'coffeelint', 'coffee','copy']
   grunt.registerTask 'server', ['default', 'connect', 'notify:server', 'open:dev', 'watch']
+  grunt.registerTask 'heroku', ['default']
