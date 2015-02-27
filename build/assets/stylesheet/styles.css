@@ -1,0 +1,109 @@
+@import url(http://fonts.googleapis.com/css?family=Pathway+Gothic+One);
+@font-face {
+  font-family: 'Whitney';
+  src: url('../fonts/Whitney/whitney-book-webfont.eot');
+  src: url('../fonts/Whitney/whitney-book-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/Whitney/whitney-book-webfont.woff') format('woff'), url('../fonts/Whitney/whitney-book-webfont.ttf') format('truetype'), url('../fonts/Whitney/whitney-book-webfont.svg#fonts/whitney_bookwebfont') format('svg');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Whitney';
+  src: url('../fonts/Whitney/whitney-semibold-webfont.eot');
+  src: url('../fonts/Whitney/whitney-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/Whitney/whitney-semibold-webfont.woff') format('woff'), url('../fonts/Whitney/whitney-semibold-webfont.ttf') format('truetype'), url('../fonts/Whitney/whitney-semibold-webfont.svg#fonts/whitney_semiboldwebfont') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Whitney';
+  src: url('../fonts/Whitney/whitney-bookitalic-webfont.eot');
+  src: url('../fonts/Whitney/whitney-bookitalic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/Whitney/whitney-bookitalic-webfont.woff') format('woff'), url('../fonts/Whitney/whitney-bookitalic-webfont.ttf') format('truetype'), url('../fonts/Whitney/whitney-bookitalic-webfont.svg#fonts/whitney_bookitalicwebfont') format('svg');
+  font-weight: 200;
+  font-style: italic;
+}
+body {
+  background: #322e2f;
+  color: #54c3c1;
+  font-family: "Whitney", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.25;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+a,
+h2,
+h3,
+h4,
+small {
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+a {
+  color: #54c3c1;
+  text-decoration: none;
+}
+.pink {
+  color: #da1c5c;
+}
+.pink-light {
+  color: #c8608d;
+}
+.magenta {
+  color: #9e1f63;
+}
+.orange {
+  color: #e23430;
+}
+.orange-light {
+  color: #f15a29;
+}
+.gold {
+  color: #fbb040;
+}
+.description {
+  text-align: center;
+  font-size: 1.2em;
+  padding: 20px 60px;
+  line-height: 1.6;
+  max-width: 992px;
+  margin: 0px auto;
+}
+.description p,
+.description span {
+  margin: 0px;
+  padding-top: 0px;
+}
+.h2 {
+  font-size: 2.75em;
+}
+.h3 {
+  font-size: 2em;
+}
+.h4 {
+  font-size: 1.25em;
+}
+.small {
+  font-size: 0.5em;
+}
+.breadcrumbs {
+  text-transform: uppercase;
+  text-align: center;
+}
+.breadcrumbs a {
+  display: block;
+  text-align: center;
+  padding-top: 40px;
+}
+.breadcrumbs img.mini {
+  margin: 80px;
+  width: 30px;
+}
+.hero {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 40px 0px;
+}
+.hero-img {
+  width: 700px;
+}
