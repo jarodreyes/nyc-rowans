@@ -2,24 +2,4 @@
 %html.no-js
   = Haml::Engine.new(File.read(File.expand_path File.dirname(__FILE__) + '/partials/header.haml')).render
   %body
-    .hero
-      %img.hero-img{:src => "assets/images/bash-logo.jpg"}
-    .description 
-      %p.pink-light Players: solve challenges, play games, roll the dice, be crazy
-      %p.pink Observers: eat food, snack on churros, play skeeball
-      %p.magenta Evil Clowns: affect the outcome for others, hack the games, tweak the rules
-
-    .description
-      %span.orange On May 19, 2015 You will get to choose your path at the Inaugural Twilio $Bash. There will be something for everyone.
-      %span.orange-light Once you enter you will have a chance to participate in games like Robodrop and King Of The Hill to earn tickets.
-      %span.gold Or you can just play skeeball and bribe people to get tickets so you can buy sweet prizes. 
-
-    .breadcrumbs{:id => 'PlayNice'}
-      %a.h2{:href => "http://meetings.frosch.com/profile/form/index.cfm?PKformID=0x32314d57&"} Register for Signal
-      %a.h3{:href => "http://en.wikipedia.org/wiki/Pagliacci", :target => "_blank"} Who is Caruso?
-      %a.h4{:href => "http://signal.twilio.com/schedule"} Signal Schedule
-      %a.small{:href => "http://en.wikipedia.org/wiki/Churro", :target => "_blank"} What is a churro?
-      %img.mini{:src => "http://twilio-bash.s3-us-west-2.amazonaws.com/clue01-play-nice.png"}
-
-
-    = Haml::Engine.new(File.read(File.expand_path File.dirname(__FILE__) + '/partials/javascript.haml')).render
+    %h3.hero Welcome to New York Rowans!
